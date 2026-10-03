@@ -1,4 +1,4 @@
-const G=()=>typeof games!=='undefined'&&Array.isArray(games)?games:(Array.isArray(window.games)?window.games:[]);
+const G=()=>typeof games!=='undefined'&&Array.isArray(games)?games:(Array.isArray(window.games)?window.games:[]);const staticPage=(x)=>((window.STATIC_GAME_PAGES||{})[x.identifier]||`activity.html?id=${encodeURIComponent(x.identifier)}`);
 const safe=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 function category(n=''){n=n.toLowerCase();if(/soccer|basket|football|boxing|volley|golf|chess|checkers/.test(n))return'Sports';if(/car|drive|drift|racing|bike|track|road/.test(n))return'Logic & Motion';if(/2048|alchemy|blox|merge|block|puzzle|economical/.test(n))return'Problem Solving';if(/idle|tycoon|mart|farming|mining/.test(n))return'Strategy';return'Interactive';}
 function cards(list){return list.map(g=>`<a class="card" href="activity.html?id=${encodeURIComponent(g.identifier)}"><img class="thumb" loading="lazy" src="${safe(g.img)}" alt="${safe(g.name)} activity"><div class="cardBody"><h3>${safe(g.name)}</h3></div></a>`).join('')}
