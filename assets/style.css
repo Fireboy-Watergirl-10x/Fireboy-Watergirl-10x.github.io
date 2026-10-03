@@ -209,8 +209,8 @@ header input[type="search"]:focus,
 }
 
 /* Keep the 970x250 ad centered regardless of its surrounding layout */
-#agario-cafe_970x250,
-.mry_2#agario-cafe_970x250,
+#fine-arts-lol_970x250,
+.mry_2#fine-arts-lol_970x250,
 [id$="_970x250"],
 .ad-970x250,
 .ad970,
@@ -220,7 +220,7 @@ header input[type="search"]:focus,
   text-align:center!important;
 }
 
-#agario-cafe_970x250 iframe,
+#fine-arts-lol_970x250 iframe,
 [id$="_970x250"] iframe,
 .ad-970x250 iframe,
 .ad970 iframe{
@@ -509,7 +509,7 @@ nav a:focus-visible{
 /* ===== V14B SAFE PLAYER FIX ===== */
 
 /* Space after the 970x250 ad */
-#agario-cafe_970x250{
+#fine-arts-lol_970x250{
   margin-bottom:28px!important;
 }
 
@@ -750,7 +750,7 @@ header #search:focus,
 
 /* Fireboy-Watergirl Unblocked: 970x250 directly below Start Activity */
 .game-play-ad{width:100%!important;display:flex!important;justify-content:center!important;align-items:center!important;margin:18px auto 0!important;text-align:center!important}
-.game-play-ad #agario-cafe_970x250{width:970px!important;max-width:100%!important;min-height:250px!important;margin:0 auto!important;text-align:center!important}
+.game-play-ad #fine-arts-lol_970x250{width:970px!important;max-width:100%!important;min-height:250px!important;margin:0 auto!important;text-align:center!important}
 .game-play-ad iframe{display:block!important;margin:0 auto!important;max-width:100%!important}
 
 /* SEO topic chips — additive only; core theme/layout unchanged */
