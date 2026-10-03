@@ -759,3 +759,25 @@ header #search:focus,
 .article h1{font-size:clamp(26px,3vw,38px);line-height:1.15;margin:0 0 18px}
 .article h2{margin-top:28px}
 .article h3{margin-top:20px}
+
+/* V7: game cover image above Play Activity button */
+.playerCover,
+.cover,
+#cover {
+  flex-direction: column !important;
+}
+#cover {
+  align-items: center !important;
+  justify-content: center !important;
+}
+#cover img {
+  display: block !important;
+  margin: 0 auto 14px !important;
+}
+#playBtn {
+  display: block !important;
+  position: static !important;
+  margin: 0 auto !important;
+  width: max-content !important;
+  float: none !important;
+}
