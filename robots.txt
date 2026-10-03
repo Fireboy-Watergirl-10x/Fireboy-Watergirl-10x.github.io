@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Fireboy-Watergirl-10x.github.io/sitemap.xml
